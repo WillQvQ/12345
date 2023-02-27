@@ -12,5 +12,5 @@ Your training code here, you may use these functions to log your result:
     fitlog.add_best_metric()
     ......
 """
-
+fitlog.add_best_metric({"acc":0.09})
 fitlog.finish()                     # finish the logging
